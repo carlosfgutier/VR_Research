@@ -1,3 +1,18 @@
 html {
 	font-family: 'Roboto', sans-serif;
 }
+
+#jumbotron {
+	color: black;
+	background-color: #c7c7c7;
+	padding: 100px 0;
+	text-align: center;
+}
+
+#jumbotron h1 {
+	font-size: 50px;
+}
+
+#jumbotron h2 {
+	font-size: 20px;
+}
