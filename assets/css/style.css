@@ -3,10 +3,13 @@ html {
 }
 
 #jumbotron {
-	color: black;
-	background-color: #c7c7c7;
+	color: white;
+	background-color: #303f9f
+
+;
 	padding: 100px 0;
 	text-align: center;
+	margin-bottom: 20px;
 }
 
 #jumbotron h1 {
@@ -15,4 +18,20 @@ html {
 
 #jumbotron h2 {
 	font-size: 20px;
+}
+
+
+#hypothesis {
+	color: white;
+	background-color: #666ad1;
+	width: 400px;
+	padding: 30px;
+	margin:0 0 20px 20px;
+}
+
+#hypothesis h3 {
+	background-color: #001970;
+	padding: 10px;
+
+
 }
