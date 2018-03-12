@@ -63,9 +63,80 @@ h1 {
 /*---------------------------------------*/
 #results {
 	text-align: center;
+	padding: 40px 0;
 	margin: 0 20px 20px 20px;
 	border-radius: 10px;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+#graph1 {
+	width: 500px;
+	height: 500px;
+	background-color: pink;
+	margin: 20px 100px;
+	position: relative;
+}
+
+#yAxis {
+	width: 10%;
+	height: 100%;
+	background-color: red;
+	position: absolute;
+	left: 0;
+}
+
+#xAxis {
+	width: 100%;
+	height: 10%;
+	background-color: blue;
+	position: absolute;
+	bottom: 0;
+}
+
+#bar1 {
+	width: 10%;
+	height: 40%;
+	background-color: green;
+	position: absolute;
+	left: 30%;
+	bottom: 0;
+}
+
+#bar2 {
+	width: 10%;
+	height: 60%;
+	background-color: yellow;
+	position: absolute;
+	left: 40%;
+	bottom: 0;
+}
+
+#bar3 {
+	width: 10%;
+	height: 40%;
+	background-color: gray;
+	position: absolute;
+	left: 70%;
+	bottom: 0;
+}
+
+#bar4 {
+	width: 10%;
+	height: 60%;
+	background-color: white;
+	position: absolute;
+	left: 80%;
+	bottom: 0;
+}
+
+#graph2 {
+	width: 500px;
+	height: 500px;
+	background-color: pink;
+	margin: 20px 100px;
+	position: relative;
+	left: 100%;
 }
 
 
