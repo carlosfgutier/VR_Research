@@ -1,15 +1,19 @@
+/* GENERAL */
+/*---------------------------------------*/
 html {
 	font-family: 'Roboto', sans-serif;
 }
 
+h1 {
+	font-size: 70px;
+}
+
+/* HEADER */
+/*---------------------------------------*/
 #jumbotron {
 	color: white;
 	padding: 17% 0;
 	text-align: center;
-}
-
-#jumbotron h1 {
-	font-size: 70px;
 }
 
 #jumbotron h2 {
@@ -25,6 +29,9 @@ html {
     background-size: cover;
 }
 
+
+/* CARDS */
+/*---------------------------------------*/
 #infoCards {
 	text-align: center;
 }
@@ -34,8 +41,8 @@ html {
 	width: 400px;
 	padding: 30px;
 	margin: 30px 20px;
-	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 	border-radius: 10px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 	display: inline-block;
 }
 
@@ -48,12 +55,55 @@ html {
 #singleCard:hover {
 	color: #e91e63;
 	cursor: pointer;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.3);
+
 }
+
+/* RESULTS */
+/*---------------------------------------*/
+#results {
+	text-align: center;
+	margin: 0 20px 20px 20px;
+	border-radius: 10px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+
+
+
+
 
 
 #hContainer {
 	color: white;
 	background-color: pink;
+	width: 300px;
+	height: 300px;
 	padding: 30px;
-	margin: 10px;
+	margin: 70px;
+	border-radius: 10px;
+	-ms-transform: rotate(20deg); /* IE 9 */
+    -webkit-transform: rotate(20deg); /* Safari */
+    transform: rotate(20deg); /* Standard syntax */
+    	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
 }
+
+#insideH {
+		box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+	position: relative;
+	bottom: 80px;
+	left: 30px;
+	min-width: 1000px;
+	min-height: 100px;
+	background-color: black;
+	padding: 30px;
+	border-radius: 10px;
+
+	-ms-transform: rotate(-20deg); /* IE 9 */
+    -webkit-transform: rotate(-20deg); /* Safari */
+    transform: rotate(-20deg); /* Standard syntax */
+}
+
