@@ -170,3 +170,7 @@ h1 {
 	margin: 5%;
 	border: solid 2px black;
 }
+
+#swap {
+	text-align: center;
+}
