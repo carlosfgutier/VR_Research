@@ -72,107 +72,176 @@ h1 {
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-#graph1 {
-	width: 450px;
-	height: 450px;
-	background-color: pink;
-	position: relative;
-}
 
-#graphTitle {
-	width: 100%;
-	height: 10%;
-	background-color: white;
-	padding: 5% 0;
-}
+	/* GRAPH GENERAL */
+	#graphTitle {
+		width: 100%;
+		height: 10%;
+		background-color: white;
+		padding: 5% 0;
+	}
 
-#yAxis {
-	line-height: 295%;
-	width: 10%;
-	height: 90%;
-	background-color: white;
-	position: absolute;
-	left: 0;
-	top: 10%;
-}
+	.graphContainer {
+		display: inline-flex;
+		margin: 5%;
+		/*border: solid 2px black;*/
+	}
 
-#xAxis1 {
-	width: 45%;
-	height: 10%;
-	text-align: center;
-	background-color: white;
-	position: absolute;
-	bottom: 0;
-	right: 0;
-}
+	#graphBoard {
+		width: 90%;
+		height: 80%;
+		background-color: white;
+		position: absolute;
+		left: 10%;
+		bottom: 10%;
+	}
 
-#xAxis2 {
-	width: 45%;
-	height: 10%;
-	text-align: center;
-	background-color: white;
-	position: absolute;
-	bottom: 0;
-	left: 10%;
-}
+	/* GRAPH 1 */
+	#graph1 {
+		width: 450px;
+		height: 450px;
+		position: relative;
+	}
 
-#graphBoard {
-	width: 90%;
-	height: 80%;
-	background-color: white;
-	position: absolute;
-	left: 10%;
-	bottom: 10%;
-}
+	#yAxis1 {
+		line-height: 295%;
+		width: 10%;
+		height: 90%;
+		background-color: white;
+		position: absolute;
+		left: 0;
+		top: 10%;
+	}
 
-#bar1 {
-	width: 15%;
-	height: 50%;
-	background-color: gray;
-	position: absolute;
-	left: 10%;
-	bottom: 0;
-}
+	#xAxisMA1 {
+		width: 45%;
+		height: 10%;
+		text-align: center;
+		background-color: white;
+		position: absolute;
+		bottom: 0;
+		left: 10%;
+	}
 
-#bar2 {
-	width: 15%;
-	height: 30%;
-	background-color: black;
-	position: absolute;
-	left: 25%;
-	bottom: 0;
-}
+	#xAxisKA1 {
+		width: 45%;
+		height: 10%;
+		text-align: center;
+		background-color: white;
+		position: absolute;
+		bottom: 0;
+		right: 0;
+	}
 
-#bar3 {
-	width: 15%;
-	height: 80%;
-	background-color: green;
-	position: absolute;
-	left: 60%;
-	bottom: 0;
-}
+	#bar11 {
+		width: 15%;
+		height: 45%;
+		background-color: #62727b;
+		position: absolute;
+		left: 10%;
+		bottom: 0;
+	}
 
-#bar4 {
-	width: 15%;
-	height: 20%;
-	background-color: yellow;
-	position: absolute;
-	left: 75%;
-	bottom: 0;
-}
+	#bar21 {
+		width: 15%;
+		height: 35%;
+		background-color: #102027;
+		position: absolute;
+		left: 25%;
+		bottom: 0;
+	}
 
-#graph2 {
-	width: 450px;
-	height: 450px;
-	background-color: pink;
-	position: relative;
-}
+	#bar31 {
+		width: 15%;
+		height: 68%;
+		background-color: #62727b;
+		position: absolute;
+		left: 60%;
+		bottom: 0;
+	}
 
-.graphContainer {
-	display: inline-flex;
-	margin: 5%;
-	border: solid 2px black;
-}
+	#bar41 {
+		width: 15%;
+		height: 85%;
+		background-color: #102027;
+		position: absolute;
+		left: 75%;
+		bottom: 0;
+	}
+	
+	/* GRAPH 2 */
+	#graph2 {
+		width: 450px;
+		height: 450px;
+		position: relative;
+	}
+
+	#yAxis2 {
+		line-height: 240%;
+		width: 10%;
+		height: 90%;
+		background-color: white;
+		position: absolute;
+		left: 0;
+		top: 10%;
+	}
+
+	#xAxisMA2 {
+		width: 45%;
+		height: 10%;
+		text-align: center;
+		background-color: white;
+		position: absolute;
+		bottom: 0;
+		left: 10%;
+	}
+
+	#xAxisKA2 {
+		width: 45%;
+		height: 10%;
+		text-align: center;
+		background-color: white;
+		position: absolute;
+		bottom: 0;
+		right: 0;
+	}
+
+	#bar12 {
+		width: 15%;
+		height: 80%;
+		background-color: #62727b;
+		position: absolute;
+		left: 10%;
+		bottom: 0;
+	}
+
+	#bar22 {
+		width: 15%;
+		height: 79%;
+		background-color: #102027;
+		position: absolute;
+		left: 25%;
+		bottom: 0;
+	}
+
+	#bar32 {
+		width: 15%;
+		height: 90%;
+		background-color: #62727b;
+		position: absolute;
+		left: 60%;
+		bottom: 0;
+	}
+
+	#bar42 {
+		width: 15%;
+		height: 70%;
+		background-color: #102027;
+		position: absolute;
+		left: 75%;
+		bottom: 0;
+	}
+
 
 #swap {
 	text-align: center;
