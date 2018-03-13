@@ -63,6 +63,8 @@ h1 {
 /* RESULTS */
 /*---------------------------------------*/
 #results {
+	color: #37474f;
+	background-color: white; 
 	text-align: center;
 	padding: 40px 0;
 	margin: 30px 20px 50px 20px;
