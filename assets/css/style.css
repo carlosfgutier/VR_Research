@@ -139,6 +139,7 @@ h1 {
 	#bar11 {
 		width: 15%;
 		height: 45%;
+		max-height: 0%;
 		background-color: #62727b;
 		position: absolute;
 		left: 10%;
@@ -148,6 +149,7 @@ h1 {
 	#bar21 {
 		width: 15%;
 		height: 35%;
+		max-height: 0%;
 		background-color: #102027;
 		position: absolute;
 		left: 25%;
@@ -157,6 +159,7 @@ h1 {
 	#bar31 {
 		width: 15%;
 		height: 68%;
+		max-height: 0%;
 		background-color: #62727b;
 		position: absolute;
 		left: 60%;
@@ -166,6 +169,7 @@ h1 {
 	#bar41 {
 		width: 15%;
 		height: 85%;
+		max-height: 0%;
 		background-color: #102027;
 		position: absolute;
 		left: 75%;
@@ -212,6 +216,7 @@ h1 {
 	#bar12 {
 		width: 15%;
 		height: 80%;
+		max-height: 0%;
 		background-color: #62727b;
 		position: absolute;
 		left: 10%;
@@ -221,6 +226,7 @@ h1 {
 	#bar22 {
 		width: 15%;
 		height: 79%;
+		max-height: 0%;
 		background-color: #102027;
 		position: absolute;
 		left: 25%;
@@ -230,6 +236,7 @@ h1 {
 	#bar32 {
 		width: 15%;
 		height: 90%;
+		max-height: 0%;
 		background-color: #62727b;
 		position: absolute;
 		left: 60%;
@@ -239,6 +246,7 @@ h1 {
 	#bar42 {
 		width: 15%;
 		height: 70%;
+		max-height: 0%;
 		background-color: #102027;
 		position: absolute;
 		left: 75%;
