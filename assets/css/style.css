@@ -8,6 +8,8 @@ h1 {
 	font-size: 70px;
 }
 
+
+
 /* HEADER */
 /*---------------------------------------*/
 #jumbotron {
@@ -39,6 +41,10 @@ h1 {
 	justify-content: center;
 }
 
+#infoCards a {
+	text-decoration: none;
+}
+
 .singleCard {
 	color: #37474f;
 	background-color: white;
@@ -49,7 +55,6 @@ h1 {
 	margin: 0px 20px;
 	border-radius: 10px;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-
 }
 
 .singleCard h3 {
@@ -135,7 +140,10 @@ legend div, p{
 /*	border: solid 2px black;*/
 }
 
-
+.graphContainer:hover {
+	border-radius: 10px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
 
 #graphBoard {
 	width: 90%;
