@@ -8,8 +8,6 @@ h1 {
 	font-size: 70px;
 }
 
-
-
 /* HEADER */
 /*---------------------------------------*/
 #jumbotron {
@@ -23,7 +21,8 @@ h1 {
 }
 
 #parallax {
-    background-image: url("../images/bck.png");
+    /*background-image: url("../images/bck.png");*/
+    background-color: #102027;
     min-height: 500px; 
     background-attachment: fixed;
     background-position: center;
@@ -95,7 +94,12 @@ legend {
 	margin: 5px auto 0 auto;
 }
 
-legend div, p{
+legend > div {
+	display: inline-flex;
+	margin: 0 2%;
+}
+
+legend > p {
 	display: inline-flex;
 	margin: 0 2%;
 }
