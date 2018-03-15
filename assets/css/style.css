@@ -45,7 +45,7 @@ h1 {
 	text-align: center;
 	width: 400px;
 	height: 200px;
-	padding: 30px;
+	padding: 5%;
 	margin: 0px 20px;
 	border-radius: 10px;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -61,6 +61,18 @@ h1 {
 	color: #102027;
 	cursor: pointer;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.3);
+}
+
+#info {
+	text-align: center;
+	color: #37474f;
+	background-color: white;
+	text-align: center;
+	width: 89%;
+	padding: 5%;
+	margin: auto;
+	border-radius: 10px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 /* RESULTS */
