@@ -1,4 +1,14 @@
+$('#hypothesis').on('click', function() {
+	$('#cardInfoSection').html('<div id="cardInfo"><p>This is the information about the hypothesis</p></div>');
+});
 
+$('#sample').on('click', function() {
+	$('#cardInfoSection').html('<div id="cardInfo"><p>This is the information about the sample</p></div>');
+});
+
+$('#methods').on('click', function() {
+	$('#cardInfoSection').html('<div id="cardInfo"><p>This is the information about the methods</p></div>');
+});
 
 
 // RESULTS SECTION
