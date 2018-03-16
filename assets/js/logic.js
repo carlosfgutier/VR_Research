@@ -1,3 +1,8 @@
+
+
+
+// RESULTS SECTION
+//---------------------------------------------//
 $('#results').on('mouseover', function(event) {
 	$('#bar11').css('max-height', '45%');
 	$('#bar21').css('max-height', '35%');
@@ -25,3 +30,22 @@ $('#results').on('mouseout', function(event) {
 	$('#bar42').css('max-height', '0%');
 });
 
+$('#graph1').hover(hoverInGraph1, hoverOutGraph1);
+
+$('#graph2').hover(hoverInGraph2, hoverOutGraph2);
+
+function hoverInGraph1() {
+	$('#graphInfoSection').html('<p>I added this with javascript</p>');
+};
+
+function hoverOutGraph1() {
+		$('#graphInfoSection').html('<p style="color: white"> hi </p>');
+};
+
+function hoverInGraph2() {
+	$('#graphInfoSection').html('<p>I added this with javascript for the second graph, the one on depression</p>');
+};
+
+function hoverOutGraph2() {
+		$('#graphInfoSection').html('<p style="color: white"> hi </p>');
+};
