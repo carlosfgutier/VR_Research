@@ -40,17 +40,13 @@ h1 {
 	justify-content: center;
 }
 
-#infoCards a {
-	text-decoration: none;
-}
-
 .singleCard {
 	color: #37474f;
 	background-color: white;
 	text-align: center;
 	width: 400px;
 	height: 200px;
-	padding: 5%;
+	padding: 1%;
 	margin: 0px 20px;
 	border-radius: 10px;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
