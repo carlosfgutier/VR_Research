@@ -41,6 +41,7 @@ h1 {
 }
 
 .singleCard {
+	line-height: 30px;
 	color: #37474f;
 	background-color: white;
 	text-align: center;
@@ -71,8 +72,8 @@ h1 {
 	width: 89%;
 	padding: 5%;
 	margin: auto;
-	border-radius: 10px;
-	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+/*	border-radius: 10px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);*/
 }
 
 /* RESULTS */
