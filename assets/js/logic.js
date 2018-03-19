@@ -7,7 +7,7 @@ $('#sample').on('click', function() {
 });
 
 $('#methods').on('click', function() {
-	$('#cardInfoSection').html('<div id="cardInfo"><p>This is the information about the methods</p></div>');
+	$('#cardInfoSection').html('<div id="cardInfo"><p>Pre-test and post-test scores of depression and happiness where collected through the Center for Epidemiology Studies Depression Scale (CESD-R) and the Steen Happiness Index (SHI), respectively.<br>Virtual environments where created and recorded using The Sims 4.<br>A Google Pixel phone and a Google Cardboard served as the Virtual Reality hardware.<br>A Mixed Models ANOVA allowed us to compare the pre-test and post-test results for each group as well as the differences between the two groups.</p></div>');
 });
 
 
