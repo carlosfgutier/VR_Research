@@ -1,5 +1,5 @@
 $('#hypothesis').on('click', function() {
-	$('#cardInfoSection').html('<div id="cardInfo"><p>This is the information about the hypothesis</p></div>');
+	$('#cardInfoSection').html('<div id="cardInfo"><p>Three Acts of Kindness is a positive psychology intervention with extensive scientific evidence in support of its ability to increase happiness.<br> The intervention consists of engaging in three kind acts, all in one day, and recording them.<br> So we asked ourselves, will performing three kind acts in a virtual environment achieve similar results?<br> The answer is yes.</p></div>');
 });
 
 $('#sample').on('click', function() {
