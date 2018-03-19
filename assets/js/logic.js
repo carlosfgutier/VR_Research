@@ -45,17 +45,17 @@ $('#graph1').hover(hoverInGraph1, hoverOutGraph1);
 $('#graph2').hover(hoverInGraph2, hoverOutGraph2);
 
 function hoverInGraph1() {
-	$('#graphInfoSection').html('<p>I added this with javascript</p>');
+	$('#graphInfoSection').html('<div id="graphInfo"><p>While participants in the experimental group (KA) had higher scores of happiness to begin with, they do not differ significantly from those of the control group (MA) (p=0.57). However, post-test scores of happiness between each group differ significantly (p=.03), supporting our hypothesis. </p></div>');
 };
 
 function hoverOutGraph1() {
-		$('#graphInfoSection').html('<p style="color: white"> hi </p>');
+		$('#graphInfoSection').html('<div id="graphInfo"><p style="color: white"> hi<br>hi </p></div>');
 };
 
 function hoverInGraph2() {
-	$('#graphInfoSection').html('<p>I added this with javascript for the second graph, the one on depression</p>');
+	$('#graphInfoSection').html('<div id="graphInfo"><p>Differences in mean scores of depression between pre-test and post-tests for the experimental (KA) and the control (MA) group.<br>Mean scores of depression in the experimental group are significantly lower from the pre-test to the post-test (p=.009).</p></div>');
 };
 
 function hoverOutGraph2() {
-		$('#graphInfoSection').html('<p style="color: white"> hi </p>');
+		$('#graphInfoSection').html('<div id="graphInfo"><p style="color: white"> hi<br>hi </p></div>');
 };
