@@ -81,7 +81,6 @@ h3 {
 	text-align: center;
 	padding: 5%;
 	margin: 5% auto;
-/*	border: solid 2px black;*/
 }
 
 /* LEGEND */
@@ -137,7 +136,6 @@ legend > p {
 .graphContainer {
 	display: inline-flex;
 	margin: 5%;
-/*	border: solid 2px black;*/
 }
 
 .graphContainer:hover {
@@ -309,6 +307,7 @@ legend > p {
 	}
 
 /* CAROUSEL */
+/*---------------------------------------*/
 #swap {
 	text-align: center;
 	color: #37474f;
@@ -317,3 +316,29 @@ legend > p {
 #swap h1 {
 	margin: 30px 0;
 }
+
+/*FOOTER*/
+/*---------------------------------------*/
+footer {
+	color: white;
+	background-color: #102027;
+	padding: 2% 5%;
+	text-align: left;
+}
+
+footer img {
+	width: 150px;
+	height: auto;
+	border-radius: 100%;
+}
+
+#infoContainer {
+	text-align: left;
+	line-height: 30px;
+}
+
+.connect img {
+	width: 50px;
+	height: auto;
+}
+
