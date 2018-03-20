@@ -347,3 +347,22 @@ footer img {
 	height: auto;
 }
 
+/*LITERATURE HTML*/
+/*---------------------------------------*/
+#literaturePage {
+	line-height: 200%;
+}
+
+.litSides {
+	background-color: #102027;
+}
+
+.litMIddle {
+	margin: 20px;
+}
+
+.references {
+	padding: 10% 5%;
+}
+
+

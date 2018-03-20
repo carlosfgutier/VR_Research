@@ -1,5 +1,5 @@
 $('#hypothesis').on('click', function() {
-	$('#cardInfoSection').html('<div id="cardInfo"><h3>Hypothesis</h3><p>Three Acts of Kindness is a positive psychology intervention with extensive <a href="http://www.psykologtidsskriftet.no/pdf/2005/874-884.pdf" target="_blank">literature</a> in support of its ability to increase happiness.<br>The intervention consists of engaging in three kind acts, all in one day, and recording them.<br> So we asked ourselves, will performing three kind acts in a virtual environment achieve similar results?<br>The answer is yes.</p></div>');
+	$('#cardInfoSection').html('<div id="cardInfo"><h3>Hypothesis</h3><p>Three Acts of Kindness is a positive psychology intervention with extensive <a href="literature.html" target="_blank">literature</a> in support of its ability to increase happiness.<br>The intervention consists of engaging in three kind acts, all in one day, and recording them.<br> So we asked ourselves, will performing three kind acts in a virtual environment achieve similar results?<br>The answer is yes.</p></div>');
 });
 
 $('#sample').on('click', function() {
