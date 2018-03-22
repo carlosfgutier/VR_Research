@@ -715,8 +715,9 @@ footer img {
 	}
 
 	footer img {
-		width: 150px;
+		width: 100%;
 		height: auto;
+		margin: auto;
 		border-radius: 100%;
 	}
 
@@ -725,8 +726,17 @@ footer img {
 		line-height: 30px;
 	}
 
+	#about {
+		font-size: 40px;
+		line-height: 50px;
+	}
+
+	.connect {
+		margin-right: 60px;
+	}
+
 	.connect img {
-		width: 50px;
+		width: 100px;
 		height: auto;
 	}
 
