@@ -379,8 +379,8 @@ footer img {
 	}
 
 	h3 {
-		font-size: 50px;
-		margin: 10px;
+		font-size: 70px;
+		margin-bottom: 5%;
 	}
 
 	a, a:hover {
@@ -399,11 +399,10 @@ footer img {
 	#jumbotron h2 {
 		font-size: 50px;
 		margin: 100px 0  0 0;
-		line-height: 100px;
+		line-height: 60px;
 	}
 
 	#parallax {
-	    /*background-image: url("../images/bck.png");*/
 	    background-color: #102027;
 	    min-height: 100%; 
 	    background-attachment: fixed;
@@ -415,7 +414,6 @@ footer img {
 	/* CARDS */
 	/*---------------------------------------*/
 	#infoCards {
-		font-size: 25px;
 		text-align: center;
 		margin: 40px 0;
 		display: inline-block;
@@ -423,12 +421,15 @@ footer img {
 	}
 
 	.singleCard {
-		width: 80%;
-		line-height: 30px;
+		font-size: 40px;
+		line-height: 50px;
 		color: #37474f;
 		background-color: white;
 		text-align: center;
-		margin: 20px auto;
+		width: 80%;
+		height: 30%;
+		margin: 10% auto;
+		padding: 5%;
 		border-radius: 10px;
 		box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 	}
@@ -441,7 +442,8 @@ footer img {
 
 	#cardInfo {
 		text-align: center;
-		line-height: 30px;
+		font-size: 40px;
+		line-height: 50px;
 		color: #37474f;
 		background-color: white;
 		width: 89%;
