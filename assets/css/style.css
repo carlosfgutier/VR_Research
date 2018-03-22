@@ -375,7 +375,7 @@ footer img {
 	}
 
 	h1 {
-		font-size: 150px;
+		font-size: 200px;
 	}
 
 	h3 {
@@ -397,7 +397,9 @@ footer img {
 	}
 
 	#jumbotron h2 {
-		font-size: 40px;
+		font-size: 50px;
+		margin: 100px 0  0 0;
+		line-height: 100px;
 	}
 
 	#parallax {
