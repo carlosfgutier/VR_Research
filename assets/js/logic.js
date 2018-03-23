@@ -86,38 +86,78 @@ $(document).ready(function() {
 		$('#bar42').css('max-height', '70%');
 
 		//show card info within respective card on tap and hide if a different card is tapped
+		var h = false;
+		var s = false;
+		var m = false;
+
 		$('#infoSectionH').hide();
 		$('#infoSectionS').hide();
 		$('#infoSectionM').hide();
 
 		$('#hypothesis').on('click', function() {
-			$('#infoSectionH').show()
-			$('#infoSectionS').hide();
-			$('#infoSectionM').hide();
 
-			$('#arrowH').html('<img src="assets/images/aUp.png">');
-			$('#arrowS').html('<img src="assets/images/aDown.png">');
-			$('#arrowM').html('<img src="assets/images/aDown.png">');
+			if (h === false) {
+				$('#infoSectionH').show();
+				$('#infoSectionS').hide();
+				$('#infoSectionM').hide();
+
+				$('#arrowH').html('<img src="assets/images/aUp.png">');
+				$('#arrowS').html('<img src="assets/images/aDown.png">');
+				$('#arrowM').html('<img src="assets/images/aDown.png">');
+
+				h = true;
+				s = false;
+				m = false;
+			} else if (h === true) {
+				$('#infoSectionH').hide();
+				$('#arrowH').html('<img src="assets/images/aDown.png">');
+
+				h = false;
+			};
 		});
 
 		$('#sample').on('click', function() {
-			$('#infoSectionH').hide()
-			$('#infoSectionS').show();
-			$('#infoSectionM').hide();
 
-			$('#arrowH').html('<img src="assets/images/aDown.png">');
-			$('#arrowS').html('<img src="assets/images/aUp.png">');
-			$('#arrowM').html('<img src="assets/images/aDown.png">');
+			if (s === false) {
+				$('#infoSectionH').hide();
+				$('#infoSectionS').show();
+				$('#infoSectionM').hide();
+
+				$('#arrowH').html('<img src="assets/images/aDown.png">');
+				$('#arrowS').html('<img src="assets/images/aUp.png">');
+				$('#arrowM').html('<img src="assets/images/aDown.png">');
+
+				h = false;
+				s = true;
+				m = false;
+			} else if (s === true) {
+				$('#infoSectionS').hide();
+				$('#arrowS').html('<img src="assets/images/aDown.png">');
+
+				s = false;
+			};
 		});
 
 		$('#methods').on('click', function() {
-			$('#infoSectionH').hide()
-			$('#infoSectionS').hide();
-			$('#infoSectionM').show();
 
-			$('#arrowH').html('<img src="assets/images/aDown.png">');
-			$('#arrowS').html('<img src="assets/images/aDown.png">');
-			$('#arrowM').html('<img src="assets/images/Up.png">');
+			if (m === false) {
+				$('#infoSectionH').hide()
+				$('#infoSectionS').hide();
+				$('#infoSectionM').show();
+
+				$('#arrowH').html('<img src="assets/images/aDown.png">');
+				$('#arrowS').html('<img src="assets/images/aDown.png">');
+				$('#arrowM').html('<img src="assets/images/aUp.png">');
+
+				h = false;
+				s = false;
+				m = true;
+			} else if (m === true) {
+				$('#infoSectionM').hide();
+				$('#arrowM').html('<img src="assets/images/aDown.png">');
+
+				m = false;
+			};
 		});
 
 		// Show graph infor under corresponding graph when on smaller screen 
