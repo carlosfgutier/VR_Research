@@ -94,20 +94,31 @@ $(document).ready(function() {
 			$('#infoSectionH').show()
 			$('#infoSectionS').hide();
 			$('#infoSectionM').hide();
+
+			$('#arrowH').html('<img src="assets/images/aUp.png">');
+			$('#arrowS').html('<img src="assets/images/aDown.png">');
+			$('#arrowM').html('<img src="assets/images/aDown.png">');
 		});
 
 		$('#sample').on('click', function() {
 			$('#infoSectionH').hide()
 			$('#infoSectionS').show();
 			$('#infoSectionM').hide();
+
+			$('#arrowH').html('<img src="assets/images/aDown.png">');
+			$('#arrowS').html('<img src="assets/images/aUp.png">');
+			$('#arrowM').html('<img src="assets/images/aDown.png">');
 		});
 
 		$('#methods').on('click', function() {
 			$('#infoSectionH').hide()
 			$('#infoSectionS').hide();
 			$('#infoSectionM').show();
-		});
 
+			$('#arrowH').html('<img src="assets/images/aDown.png">');
+			$('#arrowS').html('<img src="assets/images/aDown.png">');
+			$('#arrowM').html('<img src="assets/images/Up.png">');
+		});
 
 		// Show graph infor under corresponding graph when on smaller screen 
 		$('#graph1Info').html('<div id="graphInfo"><p>While participants in the experimental group (KA) had higher scores of happiness to begin with, they do not differ significantly from those of the control group (MA) (p=0.57). However, post-test scores of happiness between each group differ significantly (p=.03), supporting our hypothesis. </p></div>');
