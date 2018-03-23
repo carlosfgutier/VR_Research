@@ -7,6 +7,10 @@ $(document).ready(function() {
 		$('#infoSectionS').css('display', 'none');
 		$('#infoSectionM').css('display', 'none');
 
+		$('#arrowH').css('display', 'none');
+		$('#arrowS').css('display', 'none');
+		$('#arrowM').css('display', 'none');
+
         // Show card Info when cards are clicked
     	$('#hypothesis').on('click', function() {
 			$('#cardInfoSectionAll').html('<div id="cardInfo"><h3>Hypothesis</h3><p>Three Acts of Kindness is a positive psychology intervention with extensive <a href="literature.html" target="_blank">literature</a> in support of its ability to increase happiness.<br>The intervention consists of engaging in three kind acts, all in one day, and recording them.<br> So we asked ourselves, will performing three kind acts in a virtual environment achieve similar results?<br>The answer is yes.</p></div>');
