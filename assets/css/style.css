@@ -85,7 +85,7 @@ a, a:hover {
 	background-color: white; 
 	text-align: center;
 	padding: 5%;
-	margin: 5% auto;
+	margin: 5% auto 0 auto;
 }
 
 /* LEGEND */
@@ -497,8 +497,9 @@ footer img {
 	}
 
 	#graphInfo {
+		font-size: 40px;
 		text-align: center;
-		line-height: 30px;
+		line-height: 50px;
 		color: #37474f;
 		background-color: white;
 		width: 89%;
@@ -519,10 +520,10 @@ footer img {
 		margin: 5%;
 	}
 
-	.graphContainer:hover {
+/*	.graphContainer:hover {
 		border-radius: 10px;
 		box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-	}
+	}*/
 
 	#graphBoard {
 		width: 90%;
